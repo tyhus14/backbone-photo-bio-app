@@ -91,12 +91,38 @@ body {
 }
 
 /* newer stuff */
-.avatar-btn:hover {
-        cursor: pointer;
+.avatar-btn {
+    border-radius: 6px;
+    cursor: pointer;
+     &:hover {
+        box-shadow: 1px 1px 1px 1px;
+    }
 }
 
 .list-item {
     display: inline-block;
     margin-right: 10px;
     margin-bottom: 10px;
+    text-align: center;
+   
 }
+
+.jumbo-item {
+      p {
+        margin-top: 10px;
+    }
+}
+
+.img-logo {
+    width: 200px;
+    position: relative;
+    display: inline-block;
+    margin-bottom: 20px;
+}
+
+.img-responsive {
+        z-index: -5;
+        position: absolute;
+        height: auto;
+        max-width: 100%;
+    }

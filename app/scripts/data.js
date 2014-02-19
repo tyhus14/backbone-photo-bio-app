@@ -8,7 +8,7 @@ var data = [
 
 	{
 		name: 'Arya Stark',
-		bio: 'Arya Stark is the third child and second daughter of Lord Eddard and Lady Catelyn Stark. Like some of her siblings, she sometimes dreams that she is a direwolf.[1] Her own direwolf is Nymeria, who is named in reference to the Rhoynar warrior-queen of the same name.',
+		bio: 'Arya Stark is the third child and second daughter of Lord Eddard and Lady Catelyn Stark. Like some of her siblings, she sometimes dreams that she is a direwolf. Her own direwolf is Nymeria, who is named in reference to the Rhoynar warrior-queen of the same name.',
 		avatar: 'http://thenosebleeds.nextimpulsemedia.netdna-cdn.com/wp-content/uploads/2013/04/arya-plain.jpg'
 	},
 
