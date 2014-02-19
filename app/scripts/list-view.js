@@ -24,6 +24,5 @@ var ListView = Backbone.View.extend({
 		new MainView( { model: this.model })
 	}
 
-
 });
 

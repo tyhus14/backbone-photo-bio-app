@@ -36,11 +36,5 @@ var data = [
 		bio: 'Robb Stark is the eldest son of Eddard Stark and Catelyn Tully and the heir to Winterfell and the North. Upon his father\'s imprisonment for treason, he raises his banners and marches south with a host to aid his allies in the Riverlands and to free his father.',
 		avatar: 'http://static3.wikia.nocookie.net/__cb20130729052060/p__/protagonist/images/2/2c/RobbStark-550x310.png'
 	},
-
-
-	
-
-	
-
 	
 ]
