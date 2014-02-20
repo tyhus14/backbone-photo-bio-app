@@ -32,7 +32,36 @@
             </div>
         </div>
         <div class="container">
-            
+            <!-- Button trigger modal -->
+        <button class="btn btn-primary btn-lg" data-toggle="modal" data-target="#myModal">
+          New Character
+        </button>
+
+        <button class="btn btn-primary btn-lg delete-btn">
+          Delete All
+        </button>
+
+        <!-- Modal -->
+        <div class="modal fade new-modal" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+          <div class="modal-dialog">
+            <div class="modal-content">
+              <div class="modal-header">
+                <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+                <h4 class="modal-title" id="myModalLabel">New Game of Thrones Character</h4>
+              </div>
+              <div class="modal-body">
+                <input type="text" class="name-input" placeholder="name goes here">
+                <input type="text" class="image-input" placeholder="paste url of image">
+                <input type="text" class="bio-input" placeholder="bio goes here">
+              </div>
+              <div class="modal-footer">
+                <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                <button type="button" class="btn btn-primary create-btn" data-dismiss="modal">Create</button>
+              </div>
+            </div>
+          </div>
+        </div>
+
                 
             
             <div class="row marketing">

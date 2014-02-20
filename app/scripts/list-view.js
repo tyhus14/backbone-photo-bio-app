@@ -12,6 +12,8 @@ var ListView = Backbone.View.extend({
 		$('.js-contact-list').prepend(this.el);
 
 		this.render();
+
+		this.listenTo(this.model, 'change', this.render);
 	},
 
 	render: function(){
@@ -22,7 +24,7 @@ var ListView = Backbone.View.extend({
 	createMainView: function(){
 		console.log(this.model.attributes)
 		new MainView( { model: this.model })
-	}
+	},
 
 });
 
