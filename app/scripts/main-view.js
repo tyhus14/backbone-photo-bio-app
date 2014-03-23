@@ -7,7 +7,7 @@ jumboTemplate: _.template($('#jumbo-item-template').text()),
 
 
 
-initialize: function(){
+	initialize: function(){
 		$('.jumbotron-js').html(this.el);
 
 		this.render();

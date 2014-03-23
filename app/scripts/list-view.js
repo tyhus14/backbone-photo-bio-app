@@ -5,7 +5,6 @@ var ListView = Backbone.View.extend({
 
 	 events: {
     "click .avatar-btn": "createMainView",
-
   	},
 
 	initialize: function(){
